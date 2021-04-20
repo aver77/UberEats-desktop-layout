@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>UberEats</title>
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="shortcut icon" href="/images/svg/restaraunt-icon.svg">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
+</head>
+<body>
+
+<a href="#" class="scroll__top">
+    <img class="scroll__top-arrow" src="/images/svg/arrow.svg">
+</a>
+
+<!--header starts-->
+<header class="header" id="header">
+    <div class="container">
+       <div class="header__wrapper">
+        <ul class="header__list">
+            <li class="header__list-item header__list-first-item">
+                <a href="#"><img class="header__list-item-inside header__ubereats" src="/images/svg/ubereats-logo.svg" alt="UberEats"></a>
+            </li>
+            <li class="header__list-item header__list-second-item">
+                <p class="header__list-item-inside header__input">Войти</p>
+            </li>
+            <li>
+                <img src="/images/svg/shopping-basket.svg" class="header__list-item-inside header__shopping-basket"  alt="basket">
+            </li>
+        </ul>
+        </div>
+    </div>
+</header>
+<!--header ends-->
+
+<!--main starts-->
+<main class="main" id="main">
+   <div class="main__wrap-wrap">
+    <img class="main__icon" src="/images/main-icon.jpg" alt="Трактир Пушкин">
+    <div class="container">
+        <div class="main__wrapper">
+            <p class="main__wrapper-maintext">Трактир "Пушкин"</p><br>
+            <div class="main__wrapper-addinfo">
+            <p class="main__wrapper-price">₽₽₽ • Европейская</p>
+            <p class="main__wrapper-time">40 - 50 мин</p>
+            </div>
+        </div>
+    </div>
+    </div>
+            <div class="main__wrapper-menu">
+            <div class="container">
+            <ul class="main__wrapper-menu-list">
+                <li class="main__wrapper-menu-item">
+                    <a href="#!">Закуски</a>
+                </li>
+                <li class="main__wrapper-menu-item">
+                    <a href="#!">Салаты</a>
+                </li>
+                <li class="main__wrapper-menu-item">
+                    <a href="#!">Супы</a>
+                </li>
+                <li class="main__wrapper-menu-item">
+                    <a href="#!">Горячие блюда</a>
+                </li>
+                <li class="main__wrapper-menu-item">
+                    <a href="#!">Гарниры</a>
+                </li>
+                <li class="main__wrapper-menu-item">
+                    <a href="#!">Десерты</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="main__wrapper-content">
+           <div class="container">
+            <p class="main__wrapper-content-text">
+                Закуски
+            </p>
+
+            <ul class="main__wrapper-content-list">
+               <div class="row">
+                <li class="main__wrapper-content-list-item col-lg-6 col-md-12">
+                   <img class="main__wrapper-content-list-item-img" src="/images2/seldi.jpg">
+                    <p class="main__wrapper-content-list-item-txt">Сельдь на бородинском хлебе</p>
+                    <p class="main__wrapper-content-list-item-txt-grey">С яйцом и огурцом</p>
+                    <p class="main__wrapper-content-list-item-price-special">240 ₽</p>
+                </li>
+                <li class="main__wrapper-content-list-item col-lg-6 col-md-12">
+                   <img class="main__wrapper-content-list-item-img" src="/images2/solenia.jpg">
+                    <p class="main__wrapper-content-list-item-txt">Соленья ассорти</p>
+                    <p class="main__wrapper-content-list-item-price">320 ₽</p>
+                </li>
+                <li class="main__wrapper-content-list-item col-lg-6 col-md-12">
+                   <img class="main__wrapper-content-list-item-img" src="/images2/gribi.jpg">
+                    <p class="main__wrapper-content-list-item-txt">Грибы маринованные</p>
+                    <p class="main__wrapper-content-list-item-price">300 ₽</p>
+                </li>
+                <li class="main__wrapper-content-list-item col-lg-6 col-md-12">
+                   <img class="main__wrapper-content-list-item-img" src="/images2/salo.jpg">
+                    <p class="main__wrapper-content-list-item-txt">Сало домашнее с горчицей</p>
+                    <p class="main__wrapper-content-list-item-price">320 ₽</p>
+                </li>
+                <li class="main__wrapper-content-list-item col-lg-6 col-md-12">
+                   <img class="main__wrapper-content-list-item-img" src="/images2/semga.jpg">
+                    <p class="main__wrapper-content-list-item-txt">Малосольная семга</p>
+                    <p class="main__wrapper-content-list-item-price">390 ₽</p>
+                </li>
+                <li class="main__wrapper-content-list-item col-lg-6 col-md-12">
+                   <img class="main__wrapper-content-list-item-img" src="/images2/yazik.jpg">
+                    <p class="main__wrapper-content-list-item-txt">Язык говяжий с хреном</p>
+                    <p class="main__wrapper-content-list-item-price">330 ₽</p>
+                </li>
+                </div>
+            </ul>
+            </div>
+        </div>
+</main>
+
+<!--footer starts-->
+<footer class="footer" id="footer">
+    <div class="footer__wrapper container">
+        <img class="footer__logo" src="/images/svg/ubereats-logo.svg" alt="UberEats">
+        <div class="footer__line"></div>
+
+       <div class="footer__half-menu">
+       <div class="footer__half-menu-first-section">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">
+              <p>
+              <span class="text">
+                  Выбор языка:
+               </span>
+                <img class="world-img" src="/images/svg/world.svg">
+                <img class="down-img" src="/images/svg/downward.svg">
+                </p>
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Русский</a>
+            <a href="#">English</a>
+          </div>
+        </div>
+
+        <div class="footer__UberEats-section">
+            <p class="footer__text"><span class="footer__sign">#</span>UberEats</p>
+                <ul class="footer__networks">
+                    <li>
+                    <a href="https://facebook.com"><img class="footer__network-image footer__network-image-facebook" src="/images/svg/facebook.svg" alt=""></a></li>
+                    <li>
+                    <a href="https://twitter.com"><img class="footer__network-image footer__network-image-twitter" src="/images/svg/twitter.svg" alt=""></a></li>
+                    <li><a href="https://instagram.com"><img class="footer__network-image footer__network-image-instagram" src="/images/svg/instagram.svg" alt=""></a></li>
+                </ul>
+        </div>
+        </div>
+
+        <div class="footer__half-menu-second-section">
+            <span class="footer__middle-text">
+                <p>Об UberEats</p><br>
+                <p>Станьте партнёром по доставке</p><br>
+                <p>Станьте парнёром-рестораном</p>
+            </span>
+        </div>
+
+        <div class="footer__half-menu-third-section">
+            <span class="footer__middle-text">
+                <p>Все города</p><br>
+                <p>Цены</p><br>
+                <p>Помощь</p><br>
+                <p>FAQs</p>
+            </span>
+        </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__download-section">
+           <a href="https://apple.com">
+            <img class="footer__download-element1" src="/images/svg/app-store.svg" alt="appstore">
+            </a>
+            <a href="https://play.google.com">
+            <img class="footer__download-element2" src="/images/svg/google-play.svg" alt="googlestore">
+            </a>
+        </div>
+        <div class="footer__line"></div>
+
+    <div class=footer__down-section>
+        <ul class="footer__down-section-txt">
+            <li>© 2017 Uber Technologies Inc.</li>
+            <li>Обработка персональных данных</li>
+            <li>Пользовательское соглашение</li>
+        </ul>
+    </div>
+    </div>
+
+</footer>
+<script type="text/javascript" src="/js/script.js"></script>
+</body>
+</html>
